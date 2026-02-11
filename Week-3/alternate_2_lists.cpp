@@ -20,6 +20,5 @@ vector<ListNode*> alternateLists(ListNode* head) {
         h1 = h1->next;
         h2 = h2->next;
     }
-    h1->next = h2main;
     return vector<ListNode*>{h1,h2main};
 }
